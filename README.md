@@ -72,13 +72,21 @@ python3 pretrain.py --dataset_path bert_corpus_dataset.pt \
 The meaning of some parameters is as follows:
 
 dataset_path: path of processed dataset file
+
 pretrained_model_path: path of converted teacher model
+
 output_model_path: output path
+
 world_size: gpu numbers
+
 total_steps: training steps
+
 tb_path: place to save tensorboard file and logs file
+
 target_dim: dimension of the student model
-compactor_mask_strategy: **reducing dimension** or **dropping head**, strategy to compress Multi-head attention.
+
+compactor_mask_strategy: **reducing dimension** or **dropping head**, strategy to compress Multi-head attention
+
 mask_path: path to save generated mask
 
 
